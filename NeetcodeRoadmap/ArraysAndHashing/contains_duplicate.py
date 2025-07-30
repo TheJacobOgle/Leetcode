@@ -1,6 +1,7 @@
 # LC Problem 217
 # Easy
 # Topic: Arrays and Hashing
+# Link: https://leetcode.com/problems/contains-duplicate/description/
 
 from typing import List
 
