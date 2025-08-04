@@ -9,7 +9,7 @@ class Solution:
             s = numbers[l] + numbers[r]
             if s == target:
                 return [l+1, r+1]
-            elif s < target:
+            elif s < target:    # Need a larger number
                 l += 1
-            else:
+            else:               # Need a smaller number
                 r -= 1
